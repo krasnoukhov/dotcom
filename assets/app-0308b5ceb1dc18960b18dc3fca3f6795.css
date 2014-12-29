@@ -884,7 +884,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #3E3F3A;
@@ -4786,7 +4786,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -4881,7 +4881,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857;
@@ -7130,7 +7130,12 @@ input,
   .container .jumbotron .icon {
     margin-top: 20px; }
     .container .jumbotron .icon img {
+      max-width: 145px;
       margin: 0 auto; }
+      @media (max-width: 767px) {
+        .container .jumbotron .icon img {
+          max-width: 256px;
+          margin-top: 0; } }
   .container .sidebar h2:first-child {
     margin-top: 0; }
   .container .sidebar ul li {
