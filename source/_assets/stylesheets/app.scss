@@ -19,7 +19,13 @@
       margin-top: 20px;
 
       img {
+        max-width: 145px;
         margin: 0 auto;
+
+        @media (max-width: $screen-xs-max) {
+          max-width: 256px;
+          margin-top: 0;
+        }
       }
     }
   }
