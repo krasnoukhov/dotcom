@@ -10,6 +10,10 @@
 .container {
   margin-top: 30px;
 
+  @media (max-width: $screen-xs-max) {
+    margin-top: 0;
+  }
+
   .jumbotron {
     .icon {
       margin-top: 20px;
