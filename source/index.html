@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div role="tabpanel">
+<h2>Current Github streak is <a href="https://github.com/krasnoukhov"><strong>{{ "krasnoukhov" | streak }}</strong></a></h2>
+<div class="tabpanel" role="tabpanel">
   <ul class="nav nav-pills" role="tablist">
     {% for category in site.data.categories %}
     <li{% if category.slug == "all" %} class="active"{% endif %}>
