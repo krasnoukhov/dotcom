@@ -53,8 +53,17 @@
       td {
         padding: 15px;
 
-        &:first-child {
+        @media (max-width: $screen-xs-max) {
+          padding: 10px;
+        }
+
+        &.image {
           padding-left: 0;
+          width: 180px;
+
+          @media (max-width: $screen-xs-max) {
+            width: 100px;
+          }
         }
 
         h3 {

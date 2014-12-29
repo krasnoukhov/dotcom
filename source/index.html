@@ -20,7 +20,7 @@ layout: default
       {% for project in site.data.projects %}
         {% if category.slug == "all" or project.categories contains category.slug %}
         <tr>
-          <td width="180">
+          <td class="image">
             <a href="{{ project.url }}"><img src="http://placehold.it/400x400" class="img-responsive"></a>
           </td>
           <td>
