@@ -1,0 +1,8 @@
+_site
+_deploy
+.cache
+.sass-cache
+tmp
+travis.pem
+/vendor
+.bundle

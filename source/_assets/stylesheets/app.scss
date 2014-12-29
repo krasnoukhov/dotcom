@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+@import
+  "vendor/bootstrap",
+  "vendor/bootswatch",
+  "font-awesome-sprockets",
+  "font-awesome"
+;
+
+.container {
+  margin-top: 30px;
+
+  .jumbotron {
+    .icon {
+      margin-top: 20px;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .sidebar {
+    h2 {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    ul {
+      li {
+        padding: 5px 0;
+
+        a {
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .nav {
+    margin-bottom: 20px;
+  }
+
+  .projects {
+    tr {
+      td {
+        padding: 15px;
+
+        &:first-child {
+          padding-left: 0;
+        }
+
+        h3 {
+          margin-top: 5px;
+
+          small {
+            line-height: 29px;
+            vertical-align: top;
+            font-size: 12px;
+          }
+        }
+
+        ul {
+          li {
+            padding: 2px 0;
+
+            .badge-role {
+              background: $gray-darker;
+            }
+          }
+        }
+      }
+    }
+  }
+}

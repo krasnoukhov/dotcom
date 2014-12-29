@@ -1,0 +1,12 @@
+<h2>Contacts</h2>
+<ul class="list-unstyled">
+  <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  <li><a href="tel:{{ site.phone | replace: " ", "" | replace: "(", "" | replace: ")", "" | replace: "-", "" }}">{{ site.phone }}</a></li>
+</ul>
+
+<h2>On the web</h2>
+<ul class="list-unstyled links">
+{% for link in site.data.links %}
+  <li><a href="{{ link.url }}"><i class="fa fa-lg fa-fw fa-{{ link.icon }}"></i> {{ link.title }}</a></li>
+{% endfor %}
+</ul>

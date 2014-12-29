@@ -1,0 +1,21 @@
+# Site settings
+title: Dmitry Krasnoukhov
+description: >
+  I am a 22 years old passion-driven Ruby, Javascript, and iOS engineer from Kiev, Ukraine. I use cutting-edge tech to bring beautiful apps and websites to happy users.
+email: dmitry@krasnoukhov.com
+phone: +38 (091) 949-41-66
+baseurl: ""
+url: "http://www.krasnoukhov.com"
+
+# Build settings
+timezone: EET
+source: source
+markdown: kramdown
+exclude: [vendor]
+permalink: date
+tag_page_layout: tag
+tag_page_dir: tag
+tag_permalink_style: pretty
+assets:
+  cache: ../.cache
+paginate: 8

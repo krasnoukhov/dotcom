@@ -1,0 +1,324 @@
+- title: Infeedl
+  github: infeedl
+  url: https://www.infeedl.com
+  description: >
+    Infeedl is a Native Advertising platform as a service.
+  categories:
+    - side
+  roles:
+    - author
+    - co-founder
+  stack:
+    - ruby
+    - rails
+    - postgesql
+    - influxdb
+    - aws
+    - javascript
+    - react
+  years:
+    - 2014
+    - 2015
+- title: Talkable
+  github: talkable
+  url: https://www.talkable.com
+  description: >
+    Talkable is a social marketing platform for ecommerce stores that increases revenue through referrals.
+  categories:
+    - work
+  roles:
+    - author
+    - contributor
+  stack:
+    - ruby
+    - rails
+    - mysql
+    - redis
+    - aws
+    - javascript
+    - react
+  years:
+    - 2013
+    - 2015
+- title: The Old Reader
+  github: theoldreader
+  url: https://theoldreader.com
+  description: >
+    We have made a social RSS reader bringing back social features <a href="http://www.urbandictionary.com/define.php?term=sharebro">sharebros</a> had been missing for over a year.
+  categories:
+    - side
+  roles:
+    - author
+    - co-founder
+  stack:
+    - ruby
+    - rails
+    - mongodb
+    - redis
+    - elasticsearch
+    - aws
+    - javascript
+    - knockout.js
+  years:
+    - 2012
+    - 2014
+- title: talkable-objc
+  github: talkable/talkable-objc
+  url: http://cocoadocs.org/docsets/Talkable
+  description: >
+    Objective-C Pod that provides Talkable API & utilities library.
+  categories:
+    - oss
+  roles:
+    - author
+  stack:
+    - objective-c
+  years:
+    - 2014
+- title: sax-machine
+  github: pauldix/sax-machine
+  url: https://rubygems.org/gems/sax-machine
+  description: >
+    Ruby Gem for a declarative SAX parsing.
+  categories:
+    - oss
+  roles:
+    - maintainer
+    - contributor
+  stack:
+    - ruby
+  years:
+    - 2014
+- title: Gospotify
+  github: krasnoukhov/gospotify
+  url: http://gospotify.me
+  description: >
+    GoSpotify is a simple service that syncs your playlists from SoundCloud, VK and Last.fm to Spotify.
+  categories:
+    - side
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - lotus
+    - javascript
+    - react
+  years:
+    - 2014
+- title: Voiceover
+  github: krasnoukhov/voiceover
+  url: http://voiceoverproject.org/
+  description: >
+    Art project by Emine Gozde Sevim.
+  categories:
+    - side
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - lotus
+    - javascript
+    - react
+  years:
+    - 2014
+- title: lotus-dynamodb
+  github: krasnoukhov/lotus-dynamodb
+  url: https://rubygems.org/gems/lotus-dynamodb
+  description: >
+    Ruby Gem to use Amazon DynamoDB in a Lotus app.
+  categories:
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - lotus
+    - aws
+  years:
+    - 2014
+- title: Fakecontrol
+  github: fakecontrol
+  url: http://fakecontrol.org
+  description: >
+    TODO
+  categories:
+    - side
+    - oss
+  roles:
+    - contributor
+    - writer
+  stack:
+    - ruby
+    - jekyll
+  years:
+    - 2014
+- title: sidekiq-middleware
+  github: krasnoukhov/sidekiq-middleware
+  url: https://rubygems.org/gems/sidekiq-middleware
+  description: >
+    Ruby Gem that provides additional Sidekiq middleware.
+  categories:
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - sidekiq
+  years:
+    - 2013
+    - 2014
+- title: sidekiq-failures
+  github: mhfs/sidekiq-failures
+  url: https://rubygems.org/gems/sidekiq-failures
+  description: >
+    Ruby Gem to keep track of Sidekiq failed jobs.
+  categories:
+    - oss
+  roles:
+    - maintainer
+    - contributor
+  stack:
+    - ruby
+    - sidekiq
+  years:
+    - 2014
+- title: Reblog-Free Tumblr
+  github: krasnoukhov/reblog-free-tumblr
+  url: http://reblog-free-tumblr.herokuapp.com/
+  description: >
+    Simple service for those who are tired of endless Tumblr reblogs.
+  categories:
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+  years:
+    - 2014
+- title: lines
+  github: krasnoukhov/lines
+  url: https://travis-ci.org/krasnoukhov/lines
+  description: >
+    Lines is a contest for a fastest solution for a programming problem.
+  categories:
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+  years:
+    - 2013
+- title: Hello World Quiz
+  github: krasnoukhov/helloworldquiz
+  url: http://helloworldquiz.com
+  description: >
+    It is a simple game for nerds which eventually got 120k+ visitors, mostly from <a href="http://www.reddit.com/r/programming/comments/1m6jka/guess_programming_language_by_hello_world_snippet/">Reddit</a>.
+  categories:
+    - side
+    - oss
+  roles:
+    - author
+  stack:
+    - go
+    - javascript
+    - ember.js
+  years:
+    - 2013
+- title: Cloudmemory
+  github: krasnoukhov/cloudmemory
+  url: http://cloudmemory.is
+  description: >
+    Small project we built with Natalia Pokrovskaya as an art experiment.
+  categories:
+    - side
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - cuba
+    - javascript
+  years:
+    - 2013
+- title: Refineio
+  url: http://refine.io
+  description: >
+    Refineio is a web-based tool allowing users to create mockups of iOS and Android apps. The US-based company was founded in 2011 and got its financing from Yandex Factory program.
+  categories:
+    - work
+  roles:
+    - author
+  stack:
+    - ruby
+    - rails
+    - postgresql
+    - javascript
+    - sproutcore
+    - objective-c
+  years:
+    - 2012
+    - 2013
+- title: Mapia
+  url: http://mapia.ua
+  description: >
+    Mapia is a web-based mapping service that evolved into business directory with special offers. It has more than 500k corporate profiles and over 2m unique visitors per month.
+  categories:
+    - work
+  roles:
+    - contributor
+  stack:
+    - ruby
+    - rails
+    - postgresql
+    - javascript
+  years:
+    - 2012
+    - 2013
+- title: Indposhiv
+  url: http://indposhiv.ua/en
+  description: >
+    Website for a Kiev-based bespoke suits studio.
+  categories:
+    - work
+  roles:
+    - author
+  stack:
+    - ruby
+    - rails
+    - postgresql
+    - javascript
+  years:
+    - 2012
+- title: Checkboxart
+  github: krasnoukhov/checkboxart
+  url: http://krasnoukhov.github.io/checkboxart
+  description: >
+    Running man built with checkboxes. Still think sometimes about expanding this project to something more.
+  categories:
+    - side
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - javascript
+  years:
+    - 2011
+- title: Tweephone
+  github: krasnoukhov/tweephone
+  url: http://unteleported.com/tweephone
+  description: >
+    My two-weekend Arduino experiment which eventually ended on <a href="http://www.wired.com/gadgetlab/2011/11/tweephone-sends-tweets-from-analog-rotary-dial-telephone/">Wired</a> and <a href="http://www.engadget.com/2011/11/01/tweephone-is-a-rotary-phone-twitter-client-even-your-grandma-co/">Engadget</a>.
+  categories:
+    - side
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - c++
+    - arduino
+  years:
+    - 2011

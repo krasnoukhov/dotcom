@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div class="container">
+      <div class="jumbotron row">
+        <div class="col-sm-12 col-md-2 icon">
+          <img src="{% asset_path logo-small.png %}" class="img-responsive">
+        </div>
+        <div class="col-sm-12 col-md-10">
+          <h1>{{ site.title }}</h1>
+          <p>{{ site.description }}</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3 sidebar">
+          {% include sidebar.html %}
+        </div>
+        <div class="col-sm-9 content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
