@@ -7141,8 +7141,15 @@ input,
     margin-bottom: 20px; }
   .container .projects tr td {
     padding: 15px; }
-    .container .projects tr td:first-child {
-      padding-left: 0; }
+    @media (max-width: 767px) {
+      .container .projects tr td {
+        padding: 10px; } }
+    .container .projects tr td.image {
+      padding-left: 0;
+      width: 180px; }
+      @media (max-width: 767px) {
+        .container .projects tr td.image {
+          width: 100px; } }
     .container .projects tr td h3 {
       margin-top: 5px; }
       .container .projects tr td h3 small {
