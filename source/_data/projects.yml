@@ -142,7 +142,7 @@
   github: fakecontrol
   url: http://fakecontrol.org
   description: >
-    TODO
+    A community-driven website dedicated to debunking fake news.
   categories:
     - side
     - oss
