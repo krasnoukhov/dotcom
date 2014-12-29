@@ -5469,8 +5469,8 @@ input,
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/font-awesome/fontawesome-webfont-f68ee6fdd915248e90be67bebd185cab.eot");
-  src: url("/assets/font-awesome/fontawesome-webfont-f68ee6fdd915248e90be67bebd185cab.eot?#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont-b4303f1a7534b34381948fb2e7808c3f.woff") format("woff"), url("/assets/font-awesome/fontawesome-webfont-95b6573fd0ae50ab3f8b002806a9ea8e.ttf") format("truetype"), url("/assets/font-awesome/fontawesome-webfont-cc6e6f75bf8ad9749894f87793757126.svg#fontawesomeregular") format("svg");
+  src: url("/assets/font-awesome/fontawesome-webfont-b0c156f6ff0545300da9b1cf847d41d8.eot");
+  src: url("/assets/font-awesome/fontawesome-webfont-b0c156f6ff0545300da9b1cf847d41d8.eot?#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont-3aab6557d480cda251f99d468d7ff7b7.woff") format("woff"), url("/assets/font-awesome/fontawesome-webfont-8f7f4411fe98d4b19d4086fc972eea99.ttf") format("truetype"), url("/assets/font-awesome/fontawesome-webfont-9e1a4193d75d4ca246da2ab2b6acd02e.svg#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -7144,6 +7144,10 @@ input,
       text-decoration: none; }
   .container .nav {
     margin-bottom: 20px; }
+  .container .content h2 {
+    margin-top: 0; }
+  .container .content .tabpanel {
+    margin-top: 15px; }
   .container .projects tr td {
     padding: 15px; }
     @media (max-width: 767px) {
