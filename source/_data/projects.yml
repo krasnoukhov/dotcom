@@ -89,7 +89,7 @@
     - ruby
   years:
     - 2014
-- title: Gospotify
+- title: GoSpotify
   github: krasnoukhov/gospotify
   url: http://gospotify.me
   description: >
@@ -106,7 +106,7 @@
     - react
   years:
     - 2014
-- title: Voiceover
+- title: VoiceOver
   github: krasnoukhov/voiceover
   url: http://voiceoverproject.org/
   description: >
@@ -138,7 +138,7 @@
     - aws
   years:
     - 2014
-- title: Fakecontrol
+- title: FakeControl
   github: fakecontrol
   url: http://fakecontrol.org/en
   description: >
@@ -226,7 +226,7 @@
     - ember.js
   years:
     - 2013
-- title: Cloudmemory
+- title: CloudMemory
   github: krasnoukhov/cloudmemory
   url: http://cloudmemory.is
   description: >
@@ -291,7 +291,7 @@
     - javascript
   years:
     - 2012
-- title: Checkboxart
+- title: CheckBoxArt
   github: krasnoukhov/checkboxart
   url: http://krasnoukhov.github.io/checkboxart
   description: >
