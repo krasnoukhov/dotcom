@@ -9,7 +9,10 @@
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
           <h1>{{ site.title }}</h1>
-          <p>{{ site.description }}</p>
+          {% assign age = site.dob | age %}
+          {% assign birthday = site.dob | is_birthday %}
+          {% capture full %}{% if birthday %}<i class="fa fa-birthday-cake"></i> {% endif %}{{ age }}{% endcapture %}
+          <p>{{ site.description | replace: "%age%", full }}</p>
         </div>
       </div>
 
