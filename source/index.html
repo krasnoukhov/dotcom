@@ -22,7 +22,8 @@ layout: default
         {% if category.slug == "all" or project.categories contains category.slug %}
         <tr>
           <td class="image">
-            <a href="{{ project.url }}"><img src="http://placehold.it/400x400" class="img-responsive"></a>
+            {% capture image %}projects/{{ project.title | slugify }}.jpg{% endcapture %}
+            <a href="{{ project.url }}"><img src="{{ image | asset_path }}" class="img-responsive"></a>
           </td>
           <td>
             <h3>
