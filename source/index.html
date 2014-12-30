@@ -23,7 +23,7 @@ layout: default
         <tr>
           <td class="image">
             {% capture image %}projects/{{ project.title | slugify }}.jpg{% endcapture %}
-            <a href="{{ project.url }}"><img src="{{ image | asset_path }}" class="img-responsive"></a>
+            <a href="{{ project.url }}"><img src="{{ image | asset_path }}" class="img-responsive img-thumbnail"></a>
           </td>
           <td>
             <h3>
