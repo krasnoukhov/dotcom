@@ -65,7 +65,7 @@
   github: talkable/talkable-objc
   url: http://cocoadocs.org/docsets/Talkable
   description: >
-    Objective-C Pod that provides Talkable API & utilities library.
+    Objective-C Pod that provides Talkable API &amp; utilities library.
   categories:
     - oss
   roles:
