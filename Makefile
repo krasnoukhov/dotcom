@@ -13,7 +13,7 @@ build:
 	bundle exec jekyll build
 
 test:
-	bundle exec htmlproof ./_site --favicon --validate_html --verbose
+	bundle exec htmlproof ./_site --favicon --validate_html --href_ignore http://www.krasnoukhov.com/404.html --verbose
 
 deploy:
 	$(MAKE) clean
