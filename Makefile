@@ -12,18 +12,11 @@ clean:
 build:
 	bundle exec jekyll build
 
+test:
+	bundle exec htmlproof ./_site --favicon --validate_html --verbose
+
 deploy:
 	$(MAKE) clean
 	$(MAKE) build
-	git clone --branch gh-pages git@github.com:krasnoukhov/dotcom.git _deploy; true
-	cd _deploy && git fetch origin
-	cd _deploy && git reset --hard origin/gh-pages
-	cp .gitignore _site
-	cp .nojekyll _site
-	cd _deploy && ls | xargs rm -rf
-	mv _site/* _deploy
-	cd _deploy && git add -A
-	cd _deploy && git commit -m "Generated gh-pages"
-	cd _deploy && git push origin gh-pages
-	@echo
-	@echo "Deployment finished"
+	$(MAKE) test
+	bundle exec octopress deploy
