@@ -4,6 +4,7 @@ help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  clean      to remove the build from _site"
 	@echo "  build      to create a new build in _site"
+	@echo "  test       to test _site with htmlproof"
 	@echo "  deploy     to commit and deploy changes to GitHub"
 
 clean:
