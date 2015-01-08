@@ -16,6 +16,4 @@ test:
 	bundle exec htmlproof ./_site --favicon --validate_html --href_ignore http://www.krasnoukhov.com/404.html --verbose
 
 deploy:
-	$(MAKE) build
-	$(MAKE) test
 	bundle exec octopress deploy
