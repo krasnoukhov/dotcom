@@ -74,6 +74,7 @@
     - objective-c
   years:
     - 2014
+    - 2015
 - title: sax-machine
   github: pauldix/sax-machine
   url: https://rubygems.org/gems/sax-machine
@@ -88,6 +89,7 @@
     - ruby
   years:
     - 2014
+    - 2015
 - title: GoSpotify
   github: krasnoukhov/gospotify
   url: http://gospotify.me
@@ -183,6 +185,7 @@
     - sidekiq
   years:
     - 2014
+    - 2015
 - title: Reblog-Free Tumblr
   github: krasnoukhov/reblog-free-tumblr
   url: http://reblog-free-tumblr.herokuapp.com/
