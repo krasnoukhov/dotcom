@@ -1,3 +1,19 @@
+- title: Octodmin
+  github: krasnoukhov/octodmin
+  url: https://rubygems.org/gems/octodmin
+  description: >
+    Content management for Jekyll blogs
+  categories:
+    - oss
+  roles:
+    - author
+  stack:
+    - ruby
+    - lotus
+    - javascript
+    - react
+  years:
+    - 2015
 - title: Infeedl
   github: infeedl
   url: http://www.infeedl.com
