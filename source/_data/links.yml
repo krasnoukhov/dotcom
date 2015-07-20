@@ -1,9 +1,9 @@
 - title: Github
   icon: github
   url: https://github.com/krasnoukhov
-- title: Skype
-  icon: skype
-  url: skype:dmitry.krasnoukhov
+- title: Telegram
+  icon: paper-plane
+  url: https://telegram.me/krasnoukhov
 - title: Twitter
   icon: twitter
   url: https://twitter.com/krasnoukhov
@@ -13,9 +13,3 @@
 - title: TheOldReader
   icon: rss
   url: https://theoldreader.com/profile/krasnoukhov
-- title: Last.fm
-  icon: lastfm
-  url: http://www.last.fm/user/romanteg
-- title: SoundCloud
-  icon: soundcloud
-  url: https://soundcloud.com/krasnoukhov
